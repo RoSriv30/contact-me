@@ -19,16 +19,17 @@
             </div>
           <div class="right-container">
             <div class="right-inner-container">
-              <form action="#">
+              <form action="https://api.web3forms.com/submit" method="POST">
                   <h2 class="lg-view">Contact</h2>
             <h2 class="sm-view">Let's Chat</h2>
                  <p>* Required</p>
-                <input type="text" placeholder="Name *"  />
-            <input type="email" placeholder="Email *" />
-                  <input type="text" placeholder="Organization" />
-                  <input type="text" placeholder="GitHub Username" />
-                <textarea rows="4" placeholder="Message *"></textarea>
-                  <button>Submit</button>
+                 {{ACCESS_KEY_HTML}}
+                <input type="text" name="name" placeholder="Name *"  required/>
+            <input type="email" name="email" placeholder="Email *" required/>
+                  <input type="text" name="organization" placeholder="Organization" />
+                  <input type="text" name="username" placeholder="GitHub Username" />
+                <textarea rows="4" name="message" placeholder="Message *" required></textarea>
+                  <button type="submit">Submit</button>
               </form>
             </div>
           </div>
@@ -36,3 +37,5 @@
     </div>
 </body>
 </html>
+
+

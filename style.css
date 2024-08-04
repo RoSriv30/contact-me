@@ -46,7 +46,7 @@ h2 {
 .right-container {
   display:flex;
   flex:1;
-  height:460px;
+  height:480px;
   background-color: white;
   justify-content:center;
   align-items:center;
@@ -84,7 +84,13 @@ input, textarea {
 	padding: 12px 15px;
 	margin: 8px 0;
 	width: 100%;
-  font-size:0.8rem;
+    font-family: 'Montserrat', sans-serif;
+
+  font-size:0.7rem;
+}
+
+textarea {
+    resize: none;
 }
 
 input:focus, textarea:focus{
