@@ -4,7 +4,7 @@ This repository contains the source code for a page that allows individuals to c
 
 ## Website💻
 
-[rosriv30.github.io](https://rosriv30.github.io/contact-me/)
+[contact me](https://rosriv30.github.io/contact-me/)
 
 ## Template Use Guidelines 🤝
 
